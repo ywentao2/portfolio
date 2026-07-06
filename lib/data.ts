@@ -82,7 +82,7 @@ export const projects: Project[] = [
       { type: "result", text: "[RESULT] avg time/move: 138ms" },
       { type: "info", text: "[INFO] simulation complete, 10000/10000 games" },
     ],
-    desc: "A from-scratch rules engine for 斗地主 (Dou Dizhu) paired with a Monte Carlo tree search decision engine — UCT selection, expansion, rollout, and backpropagation — tuned across thousands of self-play games.",
+    desc: "A from-scratch rules engine for 斗地主 (Dou Dizhu) paired with a Monte Carlo tree search decision engine including UCT selection, expansion, rollout, and backpropagation — tuned across thousands of self-play games.",
   },
   {
     title: "Linux container runtime",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
       { type: "result", text: "[RESULT] utilization: 92.3%" },
       { type: "result", text: "[RESULT] throughput: 4.1M ops/sec" },
     ],
-    desc: "A 64-bit dynamic memory allocator built from scratch in C — explicit doubly-linked free list, first-fit placement, boundary-tag coalescing, block splitting, and page-aligned heap extension via a custom mmap-backed sbrk model. Block metadata packed into 64-bit bitfield headers with matching footer tags.",
+    desc: "A 64-bit dynamic memory allocator built from scratch in C using explicit doubly-linked free list, first-fit placement, boundary-tag coalescing, block splitting, and page-aligned heap extension via a custom mmap-backed sbrk model. Block metadata packed into 64-bit bitfield headers with matching footer tags.",
   },
   {
     title: "Linux debugger",
@@ -118,7 +118,7 @@ export const projects: Project[] = [
       { type: "result", text: "[RESULT] SIGTRAP caught, RIP rolled back" },
       { type: "info", text: "[INFO] backtrace: main <- __libc_start_main" },
     ],
-    desc: "A Linux debugger in C built on ptrace() — single-step execution, software breakpoints via INT3 injection with saved-byte restoration and RIP rollback, and byte-level memory access. Parses ELF section headers to resolve symtab/strtab and walk saved RIP chains into a full stack backtrace.",
+    desc: "A Linux debugger in C built on ptrace() with single-step execution, software breakpoints with INT3 injection, saved-byte restoration and RIP rollback, and byte-level memory access. Parses ELF section headers to resolve symtab/strtab and walk saved RIP chains into a full stack backtrace.",
   },
   {
     title: "C++ build system",
