@@ -38,8 +38,12 @@ export function Experience() {
               <div className="font-sans text-sm font-medium text-foreground">
                 {item.name}
               </div>
-              <div className="mt-1 font-sans text-[13px] leading-normal text-text-dim">
-                {item.desc}
+              <div className="mt-1 flex flex-col gap-1 font-sans text-[13px] leading-normal text-text-dim">
+                {item.desc.split("\n").map((line, i) => (
+                  <ul key={i} className="list-disc space-y-1 pl-4">
+                    <li>{line}</li>
+                  </ul>
+                ))}
               </div>
             </div>
           </div>

@@ -54,8 +54,9 @@ export const experience: ExperienceItem[] = [
     pid: "4471",
     status: "running",
     name: "Software Developer Intern — Omen Trade",
-    desc: "Built Grafana dashboards monitoring Kubernetes cluster health and AI agent workloads at ~5,000 req/s for a fintech trading startup. Designed a full-stack creator analytics platform (Next.js, React, Neon Postgres) integrating platform APIs to track real-time view metrics and detect sponsored content via caption/bio parsing across 50+ creators, accumulating 1M+ views.",
+    desc: "Designed and built a C++20 engine scoring traders' real trade histories against an idealized optimal-policy benchmark for Omen Funded's account rules, using exact linear-system solvers, dynamic programming, and Monte Carlo simulation parallelized across std::jthread worker pools.\nBuilt Grafana dashboards monitoring Kubernetes cluster health and AI agent workloads at ~5,000 req/s for a fintech trading startup. Designed a full-stack creator analytics platform (Next.js, React, Neon Postgres) integrating platform APIs to track real-time view metrics and detect sponsored content via caption/bio parsing across 50+ creators, accumulating 1M+ views.",
   },
+  
 ]
 
 export type TerminalLine = {
